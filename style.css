@@ -121,7 +121,6 @@ button:hover {
   }
 
   .container {
-    border: 1px solid red;
     border-radius: 20px;
     width: 40%;
     display: grid;

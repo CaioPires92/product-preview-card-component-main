@@ -34,23 +34,25 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <div class="container">
-      <img
-        class="img-mobile"
-        src="images/image-product-mobile.jpg"
-        alt="imagem de um perfume para mobile"
-      />
-      <img
-        class="img-desktop"
-        src="images/image-product-desktop.jpg"
-        alt="imagem de um perfume para desktop"
-      />
+    <main class="container">
+      <picture>
+        <img
+          class="img-mobile"
+          src="images/image-product-mobile.jpg"
+          alt="imagem de um perfume para mobile"
+        />
+        <img
+          class="img-desktop"
+          src="images/image-product-desktop.jpg"
+          alt="imagem de um perfume para desktop"
+        />
+      </picture>
       <div class="wrapper">
         <header>
           <p class="perfume">PERFUME</p>
           <h1>Gabrielle Essence Eau De Parfum</h1>
         </header>
-        <section role="region">
+        <section>
           <p class="paragraph">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
@@ -67,6 +69,6 @@
           Add to Cart
         </button>
       </div>
-    </div>
+    </main>
   </body>
 </html>
